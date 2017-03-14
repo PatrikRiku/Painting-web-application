@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Easy Paint</title>
+    <link href="paint.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+    
+</head>
+
+<body onLoad="canvasPaintFunction()">
+    <div id="wrapper">
+        <h1>Easy Paint</h1>
+        <img class="colorCrayonRed" id="redColorId" src="img/crayon_r.png" alt="Red crayon" />
+        <img class="colorCrayonGreen" id="greenColorId" src="img/crayon_g.png" alt="Green crayone" />
+        <img class="colorCrayonBlue" id="blueColorId" src="img/crayon_blu.png" alt="Blue crayone" />
+        <img class="colorCrayonBlack" id="blackColorId" src="img/crayone_bla.png" alt="Black crayon" />
+        <img class="eraser" id="eraserId" src="img/eraser.png" alt="Eraser" />
+        
+        <p class="bigSizeButton" id="bigSizeId">Big size</p>
+        <p class="middleSizeButton" id="middleSizeId">Middle size</p>
+        <p class="smallSizeButton" id="smallSizeId">Small size</p>
+        
+        <canvas class="canvasclass" id="paintSurface" width="450" height="450"></canvas>
+        <br />
+        
+        <a id="download" target="_blank" class="downloadButton">Download painting</a>
+        <script type="text/javascript" src="paint.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: floralwhite;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: blue;
+    text-align: center;
+    text-shadow: 1px 1px #888888;
+}
+
+
+#wrapper {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#paintSurface {
+    margin-top: 105px;
+    position: relative;
+    z-index: 20;
+    border: solid 1px;
+}
+
+.bigSizeButton {
+    background-color: #AE4200;
+    color: #FFF8EB;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    width: 135px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.middleSizeButton {
+    background-color: #ffcc00;
+    color: #FFF8EB;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    width: 135px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 47px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+
+.smallSizeButton {
+    background-color: #AE4200;
+    color: #FFF8EB;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    width: 135px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.downloadButton {
+    background-color: green;
+    color: #FFF8EB;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    width: 450px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.img {
+    position: absolute;
+    z-index: 1;
+}
+
+.colorCrayonRed {
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.colorCrayonGreen {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.colorCrayonBlue {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.colorCrayonBlack {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.eraser {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 205px;
+    cursor: pointer;
+}
+
+.canvasclass {
+    border: inset 10px;
+    margin-top: 105px;
+    position: relative;
+    z-index: 20;
+}
